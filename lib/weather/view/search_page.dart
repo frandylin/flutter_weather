@@ -14,7 +14,7 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   final TextEditingController _textController = TextEditingController();
 
-  String get _text => _textController.text();
+  String get _text => _textController.text;
 
   @override
   void dispose() {
